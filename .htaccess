@@ -1,0 +1,5 @@
+RewriteEngine on
+
+DirectoryIndex template/home.php
+
+RewriteRule ^dev assets/dev.php [NC,L]
